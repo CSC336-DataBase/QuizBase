@@ -1,6 +1,6 @@
 # To Run from Cloning:
-// Have Node.js/npm installed on host machine
-// Run the app with the following command:
+// Have Node.js/npm installed on host machine 
+// Run the app with the following command: 
 &nbsp;&nbsp;&nbsp; $ cd ./QuizeBase
 &nbsp;&nbsp;&nbsp; $ npm install
 &nbsp;&nbsp;&nbsp; $ npm start
