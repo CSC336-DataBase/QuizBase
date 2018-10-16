@@ -6,7 +6,7 @@
 &nbsp;&nbsp;&nbsp; $ npm start  
 
 
-# Build from Scratch: Instruction  
+# Instruction: Build from Scratch  
 > Assuming the node/npm installed on local machine followed from here https://github.com/facebook/create-react-app  
 $ npm init react-app quizbase  
 $ cd quizbase  
