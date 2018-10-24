@@ -13,5 +13,4 @@ Assuming the node/npm installed on local machine
 &nbsp;&nbsp;&nbsp; $ cd quizbase  
 &nbsp;&nbsp;&nbsp; $ npm start  
 > $ npm test	// Runs tests related to files changed since the last commit  
-  $ npm Build	// Builds the app for production to the build folder  
-				// It correctly bundles React in production mode and optimizes the build for the best performance
+  $ npm Build	// Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance
