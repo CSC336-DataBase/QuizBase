@@ -136,11 +136,34 @@ header {
   padding-top: 40px;
 }
 
+.logging {
+  margin-left: 15%;
+  margin-bottom: 30px;
+  height: 40px;
+  width:70%;
+  display: inline-block;
+  font-size: 20px;
+  color: #7f0000;
+  background-color: #96ff9f;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+}
+
+.formElement {
+  padding-left: 10px;
+  margin-left: 10%;
+}
+
+button {
+  background-color: #2d4372;
+  margin-left: 10%;
+  color: #96ff9f;
+}
 
 footer {
   height:20px;
-  color:  #600000;
+  color:  #96ff9f;
   font-size: 15px;
   text-align: center;
-  background-color: #8effae;
+  background-color: #2d4372;
 }

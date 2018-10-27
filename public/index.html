@@ -94,10 +94,37 @@
     </div>
 
   </section>
+
+  <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit -->
+  <form id="signIn" class="logging">
+    <div>
+      <label class="formElement">Enter your email:</label>
+      <input id="signInEmail" class="formElement" type="text" name="text">
+      <button onclick="signIn()">Sign In</button>
+    </div>
+  </form>
+  <br>
+  <form id="signUp" class="logging">
+    <div>
+      <label class="formElement">Enter your email:</label>
+      <input id="signUpEmail" class="formElement" type="text" name="text">
+      <button onclick="signUp()">Sign Up</button>
+    </div>
+  </form>
+
   <br id="root">
 
 </body>
 
   <footer>Built by Team @QuizBase 2018</footer>
+
+  <script type="text/javascript">
+    function signIn() {
+      console.log(document.getElementById("signInEmail").value);
+    }
+    function signUp() {
+      console.log(document.getElementById("signUpEmail").value);
+    }
+  </script>
 
 </html>
