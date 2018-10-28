@@ -34,12 +34,13 @@
       <ul class="main-nav">
         <li><a href="#about">About</a></li>
         <li><a href="#theTeam">The Team</a></li>
-        <li><a href="#signUp">Sign Up</a></li>
-        <li><a href="#signIn">Sign In</a></li>
+        <li><a href="#fakeRoot">Topics</a></li>
+        <li><a href="#signUp">Login/Register</a></li>
       </ul>
     </div>
   </header>
 
+  <div id="root">
   <section class="about" id="about">
     <h2 class="about-header text-center">About</h2>
     <p class="about-description body-text">
@@ -49,8 +50,8 @@
 
   <section class="theTeam" id="theTeam">
     <h2 class="theTeam-header text-center">The Team</h2>
-
     <div class="container">
+
       <figure>
         <div class="col-md-3">
           <img class="center" src="img/shofi.png">
@@ -91,8 +92,8 @@
           </p>
         </div>
       </figure>
-    </div>
 
+    </div>
   </section>
 
   <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit -->
@@ -103,7 +104,6 @@
       <button onclick="signIn()">Sign In</button>
     </div>
   </form>
-  <br>
   <form id="signUp" class="logging">
     <div>
       <label class="formElement">Enter your email:</label>
@@ -111,8 +111,10 @@
       <button onclick="signUp()">Sign Up</button>
     </div>
   </form>
+</div>
+<!-- id="root" ends here -->
 
-  <br id="root">
+<div id="fakeRoot" style="margin-bottom: 30px"></div>
 
 </body>
 

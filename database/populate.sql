@@ -52,6 +52,7 @@ username,
 email,
 schoolId
 )
+
 VALUES('Connie20','connie10@gmail.com',0001),
 ('shofi88','shofi20@gmail.com',0006),
 ('bashir23','bashir30@gmail.com',0005),
@@ -92,6 +93,7 @@ INSERT INTO prof(
 deckId, 
 userId
 )
+
 VALUES (00001, 00001),
 (00002, 00002),
 (00003, 00008),
@@ -169,6 +171,7 @@ INSERT INTO members (
 userId,
 classId
 )
+
 VALUES(00001, 0002),
 (00002, 0001),
 (00003, 0008),

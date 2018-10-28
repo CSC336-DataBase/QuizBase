@@ -1,5 +1,8 @@
-1- install mysql workbench (oracle version).
-2- open CSC 336 project and populate sql scripts and execute them in that order
+# To configure database connectivity on local machine  
+Have MySQL workbench installed (oracle version)  
+
+
+open CSC 336 project and populate sql scripts and execute them in that order
 to create QuizBase database.
 
 3- there is an example_node_project in a zip file.
@@ -25,5 +28,9 @@ other schemas in the database will follow if you confirmed that the code is work
 with the front end code you already have.
 
 
-thanks
-samuel
+# Database Server Details
+Server: sql9.freemysqlhosting.net  
+Name: sql9263174  
+Username: sql9263174  
+Password: xMEalvnh1H  
+Port number: 3306  
