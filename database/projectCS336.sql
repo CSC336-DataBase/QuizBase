@@ -80,7 +80,3 @@ classId int,
 foreign key (userId) references Usr(userId) ON DELETE CASCADE ON UPDATE CASCADE,
 foreign key (classId) references Class(classId) ON DELETE CASCADE ON UPDATE CASCADE
 );
-
-
-
-
