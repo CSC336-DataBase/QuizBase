@@ -1,3 +1,5 @@
+// Requires "npm install mysql"
+
 const mysql = require('mysql');
 
 // First you need to create a connection to the db
